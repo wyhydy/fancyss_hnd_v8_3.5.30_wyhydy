@@ -3,7 +3,7 @@
 ## 发布信息
 
 - 插件显示版本：`3.5.30.modify:wyhydy.0.3`
-- 安装包：`fancyss_hnd_v8_wyhydy.tar.gz`
+- 安装包：`fancyss_hnd_v8_wyhydy_0.3.tar.gz`
 - 适用平台：HND V8 / ARMv8
 - SHA-256：`3077eef263fd5e24c801875ee649b229ac975138454a16d7325e158a6d660761`
 - 安装包大小：`22,202,401` 字节
