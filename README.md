@@ -13,7 +13,7 @@
 ## 1. AnyTLS 后端与启动稳定性
 
 - AnyTLS 后端使用 `anytls-go anytls/0.0.13 fancyss-compat`。
-- 为兼容现有 HND V8 安装结构，部署包及路由器中的二进制文件名仍为 `/koolshare/bin/anytls-zig`；源码项目保持 `anytls-go` 命名。
+- 为兼容现有 HND V8 安装结构，部署包及路由器中的二进制文件名仍为 `/koolshare/bin/anytls-zig`；
 - 新增专用的 `run_bg_detached()` 启动函数，仅用于 AnyTLS 模式下的 `anytls-zig` 和 `ipt2socks` 两个长期进程。
 - 使用 `nohup` 并将标准输入连接到 `/dev/null`，防止通过 SSH 执行插件启动或重启后，关闭 SSH 导致两个进程收到终端挂断信号并退出。
 - 通用 `run_bg()` 保持原逻辑，不改变其他代理核心和短任务的进程生命周期。
