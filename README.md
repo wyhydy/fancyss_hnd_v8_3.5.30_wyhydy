@@ -1,12 +1,11 @@
-# fancyss HND V8 3.5.30.modify:wyhydy.0.3 升级说明
+# fancyss HND V8 3.5.30.modify:wyhydy.0.x 升级说明
 
 ## 发布信息
 
-- 插件显示版本：`3.5.30.modify:wyhydy.0.3`
-- 安装包：`fancyss_hnd_v8_wyhydy_0.3.tar.gz`
+- 插件显示版本：`3.5.30.modify:wyhydy.0.x`
+- 安装包：`fancyss_hnd_v8_wyhydy_0.x.tar.gz`
 - 适用平台：HND V8 / ARMv8
-- SHA-256：`40462cb1441ee28bdfc03884d95683a5a34ed1ac4e01d3ffbd4e6207ff558ee2`
-- 安装包大小：`22,202,401` 字节
+
 
 本版本为基于 fancyss 3.5.30 的累计修改版，包含以下改进。
 
@@ -55,5 +54,5 @@
 
 1. 在路由器页面中备份现有节点和插件配置。
 2. 上传并覆盖安装 `fancyss_hnd_v8_wyhydy.tar.gz`。
-3. 安装完成后启动插件，确认页面显示版本 `3.5.30.modify:wyhydy.0.3`。
+3. 安装完成后启动插件，确认页面显示版本 `3.5.30.modify:wyhydy.0.x`。
 4. 检查 AnyTLS 节点可用、国外连接正常，并执行一次规则更新验证 qxzg 规则源。
